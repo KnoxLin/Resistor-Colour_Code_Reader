@@ -28,7 +28,7 @@ while True:
         c1,c2,c3= input("Enter the colours of the resistor:").split()
         value = resistorvalue(c1,c2,c3)
         print(value)
-    except KeyError or ValueError:
+    except KeyError,ValueError:
         print("Input format was given incorrectly.")
         
     again = input("Do you want to continue? (y/n): ")
