@@ -1,1 +1,1 @@
-Testing
+This project helps you find the resistor value using the color codes. Just enter the color codes and get the resistor value!
